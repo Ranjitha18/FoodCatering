@@ -1,0 +1,30 @@
+
+ <app-header></app-header>
+<div class="container col-md-8">
+    <form class = "form" #f= "ngForm">
+      <div class="form-group mt-5">
+        <label class = "form-label"><strong>Food Id</strong></label>
+        <input type="number"   [(ngModel)]="food.foodId"  #foodId = "ngModel" name = "foodId"  class="form-control" />
+      </div>
+      <div class="form-group">
+        <label class = "form-label"><strong>Name:</strong>  </label>
+        <input type="text" class="form-control" [(ngModel)]="food.name"  #name = "ngModel" name = "name" />
+      </div>
+      <div class="form-group">
+        <label class = "form-label"><strong>Category: </strong></label>
+        <input type="text" class="form-control" [(ngModel)]="food.cat"  #cat = "ngModel" name = "Category" />
+      </div>
+      <div class="form-group">
+        <label class = "form-label" ><strong>Price</strong></label>
+        <input type="text" class="form-control" [(ngModel)]="food.price" #price = "ngModel" name= "Price" />
+      </div>
+      <div class="form-group">
+        <label class = "form-label"><strong>Occasion:</strong></label>
+        <input type="text" class="form-control" [(ngModel)]="food.occ"  #occ = "ngModel"  name = "Occasion">
+      </div>
+      <div class="form-group text-center">
+        <button (click)="delete()" class="btn btn-danger" >{{isNew ? "delete":""}}</button>
+      </div>
+    </form>
+  </div>
+  

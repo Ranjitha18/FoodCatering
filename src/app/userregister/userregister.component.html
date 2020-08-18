@@ -1,0 +1,129 @@
+<!-- 
+<div *ngIf = "Register ; else re">
+  <div style="background-image: url(./assets/PicsArt_10-11-11.00.27.png); height: 755px;background-size: 100%;">
+    
+    <img src="./assets/PicsArt.png" width="250px" height="250px" >
+  <h4><pre><SPAN STYLE="color: rgb(240, 240, 240); font-size: 55pt;align-content: center;">Registration</SPAN></pre></h4>
+              <form class = "form" #f= "ngForm">
+                <div class = "container col-md-2 " style="color: white;">
+            <div class="form-group ">
+              <label class = "form-label">Name : </label>
+              <input type="text" class="form-control" [(ngModel)]= "login.name"  name = "name" />
+            </div>
+            <div class="form-group">
+              <label class = "form-label" >Phone :</label>
+              <input type="text" class="form-control" [(ngModel)]="login.phone"  name= "phone" />
+            </div>
+            <div class="form-group">
+              <label class = "form-label">Username :</label>
+              <input type="email" class="form-control" [(ngModel)]="login.username"    name = "username">
+            </div>
+            
+            <div class="form-group">
+              <label class = "form-label">password :</label>
+              <input type="email" class="form-control" [(ngModel)]="login.password"    name = "password">
+            </div>
+            <div class="form-group text-center">
+              <button (click)="add()" class="btn btn-primary" >register</button>
+            </div>
+          </div>
+          </form>
+        </div>
+    </div> -->
+
+
+
+
+    <div *ngIf = "Register ; else re">
+   
+
+        <div style="background-image: url(./assets/PicsArt_10-11-11.00.27.png); height: 1000px;background-size: 100%;">
+        
+           
+           <div class="sidenav">
+             
+              <section>
+                 <br>
+                    <img src="./assets/PicsArt.png" width="250px" height="250px" >
+                 <div class="login-main-text">
+                       
+                    <h2><SPAN STYLE="color: rgb(240, 240, 240); font-size: 55pt;align-content: center;">Foodicted
+                             </SPAN></h2>
+                             <h3><SPAN STYLE="color: rgb(240, 240, 240); font-size: 15pt;align-content: center;"><strong> Taste the new</strong></SPAN></h3>
+                             <br>
+                    <p><span style="color: aliceblue; font-size: 20pt;font-family:Quicksand-Light ;"><b>Registration</b></span>
+                    </p>
+                 </div>
+                  
+                 
+                 <div style="padding-left: 40%;">
+                    
+                       <div class="col-md-4 main " >
+                          <div class="login-form">
+                              <div class="form-group ">
+                                  <label class = "form-label">Name : </label>
+                                  <input type="text" class="form-control" [(ngModel)]= "login.name"  name = "name" />
+                                </div>
+                                <div class="form-group">
+                                  <label class = "form-label" >Phone :</label>
+                                  <input type="text" class="form-control" [(ngModel)]="login.phone"  name= "phone" />
+                                </div>
+                                <div class="form-group">
+                                  <label class = "form-label">Username :</label>
+                                  <input type="email" class="form-control" [(ngModel)]="login.username"    name = "username">
+                                </div>
+                                
+                                <div class="form-group">
+                                  <label class = "form-label">password :</label>
+                                  <input type="email" class="form-control" [(ngModel)]="login.password"    name = "password">
+                                </div>
+                                <div class="form-group text-center">
+                                  <button (click)="add()" class="btn btn-primary" >register</button>                          </div> 
+                       </div>
+                    
+                    </div>
+                  </div>
+     
+              </section>
+           </div>
+           
+                    
+     
+        </div>
+     </div>
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <ng-template #re>
+     
+          <app-userlogin></app-userlogin>
+  
+    </ng-template>      

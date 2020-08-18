@@ -1,0 +1,59 @@
+
+<div *ngIf = "isLogin ; else eb">
+    <div style="background-image: url(./assets/PicsArt_10-11-11.00.27.png); height: 755px;background-size: 100%;">
+
+      <div class="sidenav">
+        
+          <section>
+
+
+
+      <img src="./assets/PicsArt.png" width="250px" height="250px" >
+
+
+      <h2><SPAN STYLE="color: rgb(240, 240, 240); font-size: 55pt;align-content: center;">Foodicted
+      </SPAN></h2>
+      <h3><SPAN STYLE="color: rgb(240, 240, 240); font-size: 15pt;align-content: center;"><strong> Taste the new</strong></SPAN></h3>
+      <br>
+<p><span style="color: aliceblue; font-size: 20pt;font-family:Quicksand-Light ;"><b>User Log In</b></span>
+</p>
+
+
+<div style="padding-left: 40%;">
+
+    <div class="col-md-4 main " >
+
+        <div class="login-form">
+            <div class="form-group">
+
+                <label><span style="color: aliceblue"><b>Username</b> </span></label>
+      <input type="text" class="form-control" [(ngModel)]="uusername"    name = "username">
+    </div>
+    
+    <div class="form-group" style="color: white;">
+        <label><span style="color: aliceblue"><b>Password</b></span></label>
+      <input type="password" class="form-control" [(ngModel)]="upassword"    name = "password">
+    </div>
+    <button type="submit" class="btn btn-secondary" (click)="valid()">Login</button>
+                     </div> 
+                  </div>
+               
+               </div>
+
+         </section>
+      </div>
+      
+               
+
+   </div>
+</div>
+
+
+<ng-template #eb>
+    
+  
+           <app-ulist></app-ulist>
+
+ 
+
+</ng-template>

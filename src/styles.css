@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files
+@font-face {
+    font-family:gula;
+    src: url(/assets/fonts/Gula.otf) format("opentype");
+  }
+
+  @font-face {
+    font-family:Raleway-Light;
+    src: url(/assets/fonts/Raleway-Light.ttf) format("opentype");
+  }
+  @font-face {
+    font-family:Quicksand-Light;
+    src: url(/assets/fonts/Quicksand-Light.otf) format("opentype");
+  }
+  
+  @font-face {
+    font-family:Tomatoes-O8L8;
+    src: url(/assets/fonts/Tomatoes-O8L8.ttf) format("opentype");
+  }
+  header{
+    background-color: black;
+   
+    min-height: 100%;
+    color: white;
+  }
+   */
+
+   /* @font-face {
+    font-family:gula;
+    src: url(D:/AngularProject2/src/assets/fonts/Gula.otf) format("opentype");
+  }
+
+  @font-face {
+    font-family:Raleway-Light;
+    src: url(D:/AngularProject2/src/assets/fonts/Raleway-Light.ttf) format("opentype");
+  }
+  @font-face {
+    font-family:Quicksand-Light;
+    src: url(D:/AngularProject2/src/assets/fonts/Quicksand-Light.otf) format("opentype");
+  }
+  
+  @font-face {
+    font-family:Tomatoes-O8L8;
+    src: url(D:/AngularProject2/src/assets/fonts/Tomatoes-O8L8.ttf) format("opentype");
+  }*/
+  
+html, body { height: 100%;}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } 

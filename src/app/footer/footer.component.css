@@ -1,0 +1,19 @@
+footer{
+    background-color:#3E4551;
+}
+.fb-ic{
+    color:black;
+   
+}
+h6{
+    font-family: 'Quicksand-Light';
+    color:white;
+}
+p{
+    color:#d7ccc8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+hr{
+    background-color: whitesmoke;
+    color: whitesmoke;
+}
